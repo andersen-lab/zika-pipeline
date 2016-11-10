@@ -1,0 +1,4 @@
+*~
+.DS_Store
+get_coverage/.snakemake/*
+align_reads/.snakemake/*
