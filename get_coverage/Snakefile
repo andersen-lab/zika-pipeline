@@ -35,4 +35,4 @@ rule generate_statistics:
     shell:
         "module load python/3.5.1 && "
         "a=$(dirname {output}) &&"
-        "python3 ../plot_coverage.py $a/ $a/ > {output}"
+        "python3 ./plot_coverage.py $a/ $a/ > {output}"
